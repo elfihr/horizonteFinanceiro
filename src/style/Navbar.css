@@ -139,5 +139,9 @@
     .navBarBuy{
         display: none;
     }
+
+    .navBar a::after{
+        width: 0%;
+    }
 }
 
