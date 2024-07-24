@@ -1,0 +1,92 @@
+.hero{
+    margin-top: 3rem;
+}
+
+
+.imgContainer{
+    position: relative;
+    text-align: center;
+}
+
+.heroimg{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+}
+
+.imgContainer p{
+    position: absolute;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    top: 40%;
+    left: 28%;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.heroIntro{
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #4a535b ;
+    padding: 0 1rem;
+
+}
+
+@media (max-width:1024px){
+    .imgContainer p{
+        top: 40%;
+        left: 24%;
+        font-size: 2.5rem;
+    }
+    .heroimg{
+        height: 99%;
+    }
+}
+
+@media (max-width:880px){
+    .imgContainer p{
+        left: 17%;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:670px){
+    .imgContainer p{
+       left: 17%;
+        font-size: 2rem;
+    }
+    .heroIntro{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:550px){
+    .imgContainer p{
+        left:20%;
+        font-size: 1.5rem;
+    }
+    .heroIntro{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:460px){
+    .imgContainer p{
+        left:14%;
+        font-size: 1.5rem;
+    }
+    .heroIntro{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:370px){
+    .imgContainer p{
+        left:12%;
+        font-size: 1.5rem;
+    }
+    .heroIntro{
+        font-size: 1.5rem;
+    }
+}
