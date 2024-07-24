@@ -41,7 +41,7 @@ export const contador = [
         mil:'mil'
     },
     {
-        end: 230,
+        end: 23,
         label: 'Mentores da Horizonte',
     },    {
         end: 900,
